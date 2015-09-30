@@ -1,0 +1,11 @@
+//
+// # Helpers backgrounds
+//
+
+.no-bg         { background: none !important; }
+.bg-size-cover { background-size: cover; }
+.bg-size-100   { background-size: 100%; }
+
+.bg-white  { background-color: $white-color !important; }
+.bg-silver { background-color: $silver-color !important; }
+.bg-black  { background-color: $black-color !important; }

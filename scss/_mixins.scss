@@ -1,0 +1,49 @@
+//===============================
+//=           Mixins            =
+//===============================
+
+// Border radius
+//
+@mixin border-radius($radius...) {
+  border-radius: $radius;
+}
+
+@mixin border-top-radius($radius) {
+  border-top-right-radius: $radius;
+   border-top-left-radius: $radius;
+}
+
+@mixin border-right-radius($radius) {
+  border-bottom-right-radius: $radius;
+     border-top-right-radius: $radius;
+}
+
+@mixin border-bottom-radius($radius) {
+  border-bottom-right-radius: $radius;
+   border-bottom-left-radius: $radius;
+}
+
+@mixin border-left-radius($radius) {
+  border-bottom-left-radius: $radius;
+     border-top-left-radius: $radius;
+}
+
+// box shadow
+//
+@mixin box-shadow($shadow...) {
+  -webkit-box-shadow: $shadow;
+          box-shadow: $shadow;
+}
+
+// opacity
+//
+@mixin opacity($opacity) {
+  @if $opacity == 1 {
+    filter: unquote("progid:DXImageTransform.Microsoft.Alpha(enabled=false)");
+  }
+  @else {
+    filter: unquote("progid:DXImageTransform.Microsoft.Alpha(Opacity=#{round($opacity * 100)})");
+  }
+
+  opacity: $opacity;
+}

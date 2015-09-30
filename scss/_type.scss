@@ -1,0 +1,56 @@
+/*==========================================
+=            Typography helpers            =
+==========================================*/
+
+// colors
+//
+.txt-white  { color: $white-color !important; }
+.txt-silver { color: $silver-color !important; }
+.txt-black  { color: $black-color !important; }
+
+// font weight
+//
+.fw-light  { font-weight: $weight-light !important; }
+.fw-normal { font-weight: $weight-normal !important; }
+.fw-bold   { font-weight: $weight-bold !important; }
+.fw-bolder { font-weight: $weight-bolder !important; }
+
+// text align
+//
+.txt-right   { text-align: right !important; }
+.txt-left    { text-align: left !important; }
+.txt-justify { text-align: justify !important; }
+.txt-center  { text-align: center !important; }
+
+// text transform
+//
+.txt-upper { text-transform: uppercase !important;  }
+.txt-lower { text-transform: lowercase !important;  }
+.txt-capit { text-transform: capitalize !important; }
+
+// font style
+//
+.txt-style-normal { font-style: normal !important; }
+.txt-italic { font-style: italic !important; }
+.txt-oblique { font-style: oblique !important; }
+
+// text decorations
+//
+.txt-decoration-none { text-decoration: none !important;  }
+.txt-underline { text-decoration: underline !important;  }
+.txt-overline { text-decoration: overline !important;  }
+.txt-line-through, .txt-strike { text-decoration: line-through !important;  }
+
+// hidden and overflow
+//
+.txt-nowrap  { white-space : nowrap !important; }
+.txt-hidden {
+  text-indent: 100%;
+  @extend .ovf-hidden;
+  @extend .txt-nowrap;
+}
+.txt-truncate {
+  text-overflow: ellipsis;
+  @extend .ovf-hidden;
+  @extend .txt-nowrap;
+}

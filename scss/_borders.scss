@@ -1,0 +1,55 @@
+/*=======================================
+=            Borders helpers            =
+=======================================*/
+
+.bdr { border: 1px solid $border-color !important; }
+
+.bdr-w1 { border-width: 1px !important; }
+.bdr-w2 { border-width: 2px !important; }
+.bdr-w3 { border-width: 3px !important; }
+
+.bdr-solid  { border-style: solid  !important; }
+.bdr-dashed { border-style: dashed !important; }
+.bdr-dotted { border-style: dotted !important; }
+
+.no-bdr   { border: none        !important; }
+.no-bdr-r { border-right: none  !important; }
+.no-bdr-l { border-left: none   !important; }
+.no-bdr-b { border-bottom: none !important; }
+.no-bdr-t { border-top: none    !important; }
+
+// rounded
+//
+.bdrz, .rounded { @include border-radius($border-radius-base); }
+.bdrz-lg { @include border-radius($border-radius-large); }
+.bdrz-sm { @include border-radius($border-radius-small); }
+
+// rounded top
+//
+.bdrz-t    { @include border-top-radius($border-radius-base); }
+.bdrz-t-lg { @include border-top-radius($border-radius-large); }
+.bdrz-t-sm { @include border-top-radius($border-radius-small); }
+
+// rounded left
+//
+.bdrz-l    { @include border-left-radius($border-radius-base); }
+.bdrz-l-lg { @include border-left-radius($border-radius-large); }
+.bdrz-l-sm { @include border-left-radius($border-radius-small); }
+
+// rounded right
+//
+.bdrz-r    { @include border-right-radius($border-radius-base); }
+.bdrz-r-lg { @include border-right-radius($border-radius-large); }
+.bdrz-r-sm { @include border-right-radius($border-radius-small); }
+
+// rounded bottom
+//
+.bdrz-b    { @include border-bottom-radius($border-radius-base); }
+.bdrz-b-lg { @include border-bottom-radius($border-radius-large); }
+.bdrz-b-sm { @include border-bottom-radius($border-radius-small); }
+
+// dot 50%
+// no round
+//
+.dot, .bdrz-50 { @include border-radius(50%); }
+.unround, .no-bdrz { @include border-radius(0); }
