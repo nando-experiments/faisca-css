@@ -1,5 +1,5 @@
 /*!
- * SASS Helpers - v1.2.0
+ * SCSS SOS - v1.3.0 | https://github.com/nandomoreirame/scss-sos
  * @author: Fernando Moreira <nandomoreira.me@gmail.com>
  */
 .cfix:before, .clearfix:before, .cfix:after, .clearfix:after { content: " "; display: table; }
@@ -356,5 +356,5 @@
 /*=======================================
 =            Buttons helpers            =
 =======================================*/
-.button { -webkit-appearance: none; -moz-appearance: none; border-style: solid; border-width: 0; cursor: pointer; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-weight: 500; line-height: normal; margin: 0 0 10px; position: relative; text-align: center; text-decoration: none; display: inline-block; padding: 16px 30px; font-size: 1rem; background-color: #1791A9; border-color: #158297; color: #fff; -moz-transition: background-color 0.1s linear; -o-transition: background-color 0.1s linear; -webkit-transition: background-color 0.1s linear; transition: background-color 0.1s linear; }
-.button:hover, .button:focus { background-color: #147e93; }
+.btn { -webkit-appearance: none; -moz-appearance: none; border-style: solid; border-width: 0; cursor: pointer; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-weight: 500; line-height: normal; margin: 0 0 10px; position: relative; text-align: center; text-decoration: none; display: inline-block; padding: 16px 30px; font-size: 1rem; background-color: #1791A9; border-color: #158297; color: #fff; -moz-transition: background-color 0.1s linear; -o-transition: background-color 0.1s linear; -webkit-transition: background-color 0.1s linear; transition: background-color 0.1s linear; }
+.btn:hover, .btn:focus { background-color: #147e93; }
