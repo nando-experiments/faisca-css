@@ -53,3 +53,4 @@
 //
 .dot, .bdrz-50 { @include border-radius(50%); }
 .unround, .no-bdrz { @include border-radius(0); }
+.round { @include border-radius(1000px); }

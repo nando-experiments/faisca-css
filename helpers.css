@@ -316,6 +316,8 @@
 
 .unround, .no-bdrz { -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; }
 
+.round { -moz-border-radius: 1000px; -webkit-border-radius: 1000px; border-radius: 1000px; }
+
 /*===============================================
 =            Helpers class for lists            =
 ===============================================*/
@@ -354,5 +356,5 @@
 /*=======================================
 =            Buttons helpers            =
 =======================================*/
-.button { -webkit-appearance: none; -moz-appearance: none; border-radius: 0; border-style: solid; border-width: 0; cursor: pointer; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-weight: 500; line-height: normal; margin: 0 0 10px; position: relative; text-align: center; text-decoration: none; display: inline-block; padding: 16px 30px; font-size: 1rem; background-color: #1791A9; border-color: #158297; color: #fff; -moz-transition: background-color 0.1s linear; -o-transition: background-color 0.1s linear; -webkit-transition: background-color 0.1s linear; transition: background-color 0.1s linear; }
+.button { -webkit-appearance: none; -moz-appearance: none; border-style: solid; border-width: 0; cursor: pointer; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-weight: 500; line-height: normal; margin: 0 0 10px; position: relative; text-align: center; text-decoration: none; display: inline-block; padding: 16px 30px; font-size: 1rem; background-color: #1791A9; border-color: #158297; color: #fff; -moz-transition: background-color 0.1s linear; -o-transition: background-color 0.1s linear; -webkit-transition: background-color 0.1s linear; transition: background-color 0.1s linear; }
 .button:hover, .button:focus { background-color: #147e93; }
