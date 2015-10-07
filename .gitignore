@@ -1,2 +1,3 @@
 *.map
+*.lock
 .sass-cache

@@ -1,0 +1,27 @@
+{
+  "name": "scss-sos",
+  "version": "1.1.0",
+  "homepage": "https://github.com/nandomoreirame/scss-sos",
+  "authors": [
+    "Fernando Moreira <nandomoreira.me@gmail.com>"
+  ],
+  "description": "CSS helpers using SASS preprocessor",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "scss",
+    "sass",
+    "compass",
+    "preprocessor",
+    "helpers",
+    "sos"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
