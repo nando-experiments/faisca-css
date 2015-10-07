@@ -1,12 +1,12 @@
 {
   "name": "scss-sos",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "homepage": "https://github.com/nandomoreirame/scss-sos",
   "authors": [
     "Fernando Moreira <nandomoreira.me@gmail.com>"
   ],
   "description": "CSS helpers using SASS preprocessor",
-  "main": "",
+  "main": "helpers.scss",
   "moduleType": [],
   "keywords": [
     "scss",

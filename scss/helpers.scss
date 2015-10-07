@@ -1,11 +1,13 @@
 /*!
- * SASS Helpers - v1.1.0
+ * SASS Helpers - v1.2.0
  * @author: Fernando Moreira <nandomoreira.me@gmail.com>
  */
 
 @import "variables";
 @import "clearfix";
 @import "mixins";
+
+@import "compass/css3";
 
 @import "others";
 @import "type";
@@ -16,3 +18,5 @@
 @import "lists";
 @import "background";
 @import "accessibility";
+
+@import "buttons";

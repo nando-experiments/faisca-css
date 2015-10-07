@@ -1,0 +1,31 @@
+/*=======================================
+=            Buttons helpers            =
+=======================================*/
+
+.button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  font-family: $font-family;
+  font-weight: $weight-normal;
+  line-height: normal;
+  margin: 0 0 $spacer;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: $button-spacer-y $button-spacer-x;
+  font-size: 1rem;
+  background-color: $button-color;
+  border-color: darken($button-color, 4%);
+  color: $white-color;
+  @include transition(background-color .1s linear);
+
+  &:hover,
+  &:focus {
+    background-color: darken($button-color, 5%);
+  }
+}

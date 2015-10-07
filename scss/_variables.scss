@@ -2,12 +2,17 @@
 //=          Variables          =
 //===============================
 
+// fonts
+//
+$font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !default;
+
 // Colors
 //
 $white-color  : #fff !default;
 $silver-color : #eee !default;
 $black-color  : #000 !default;
 $border-color : $silver-color !default;
+$button-color : #1791A9 !default;
 
 // font weight
 //
@@ -25,3 +30,5 @@ $border-radius-large : 6px !default;
 // Spacer
 //
 $spacer: 10px !default;
+$button-spacer-x: 30px !default;
+$button-spacer-y: 16px !default;
