@@ -5,8 +5,8 @@
   "authors": [
     "Fernando Moreira <nandomoreira.me@gmail.com>"
   ],
-  "description": "CSS helpers using SASS preprocessor",
-  "main": "helpers.scss",
+  "description": "Faisca CSS helpers using SASS preprocessor",
+  "main": "",
   "moduleType": [],
   "keywords": [
     "scss",
