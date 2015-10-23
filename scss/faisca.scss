@@ -1,14 +1,19 @@
 /*!
- * SCSS SOS - v1.3.0 | https://github.com/nandomoreirame/scss-sos
+ * Faisca - v2.0.0 | https://github.com/nandomoreirame/faisca-css
  * @author: Fernando Moreira <nandomoreira.me@gmail.com>
  */
 
+// Variables
+// clearfix mixin
 @import "variables";
 @import "clearfix";
-@import "mixins";
 
+// Faisca needs the Compass CSS3
+// http://compass-style.org/reference/compass/css3/
 @import "compass/css3";
 
+// Faisca Helpers :)
+//
 @import "others";
 @import "type";
 @import "margins";
@@ -19,4 +24,6 @@
 @import "background";
 @import "accessibility";
 
-@import "buttons";
+// Faisca Components
+//
+// @import "buttons";

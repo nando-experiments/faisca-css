@@ -1,13 +1,15 @@
 {
   "name": "faisca",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "homepage": "https://github.com/nandomoreirame/scss-sos",
   "authors": [
     "Fernando Moreira <nandomoreira.me@gmail.com>"
   ],
   "description": "Faisca CSS helpers using SASS preprocessor",
-  "main": "",
-  "moduleType": [],
+  "main": [
+    "scss/*",
+    "faisca.css"
+  ],
   "keywords": [
     "scss",
     "sass",

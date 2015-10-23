@@ -10,6 +10,7 @@
 
 // font weight
 //
+.fw-lighter  { font-weight: $weight-lighter !important; }
 .fw-light  { font-weight: $weight-light !important; }
 .fw-normal { font-weight: $weight-normal !important; }
 .fw-bold   { font-weight: $weight-bold !important; }
@@ -30,16 +31,16 @@
 
 // font style
 //
-.txt-style-normal { font-style: normal !important; }
-.txt-italic { font-style: italic !important; }
-.txt-oblique { font-style: oblique !important; }
+.f-style-n { font-style: normal !important;  }
+.f-style-i { font-style: italic !important;  }
+.f-style-o { font-style: oblique !important; }
 
 // text decorations
 //
-.txt-decoration-none { text-decoration: none !important;  }
-.txt-underline { text-decoration: underline !important;  }
-.txt-overline { text-decoration: overline !important;  }
-.txt-line-through, .txt-strike { text-decoration: line-through !important;  }
+.txt-d-n { text-decoration: none !important;  }
+.txt-d-u { text-decoration: underline !important;  }
+.txt-d-o { text-decoration: overline !important;  }
+.txt-strike, .txt-d-lt { text-decoration: line-through !important;  }
 
 // hidden and overflow
 //

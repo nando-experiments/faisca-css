@@ -2,7 +2,7 @@
 =            Paddings Helpers            =
 ========================================*/
 
-.p-a-none { padding:        0 !important; }
+.p-none   { padding:        0 !important; }
 .p-t-none { padding-top:    0 !important; }
 .p-r-none { padding-right:  0 !important; }
 .p-b-none { padding-bottom: 0 !important; }
@@ -10,7 +10,7 @@
 .p-x-none { padding-right:  0 !important; padding-left:   0 !important; }
 .p-y-none { padding-top:    0 !important; padding-bottom: 0 !important; }
 
-.p-a { padding:        $spacer !important; }
+.p   { padding:        $spacer !important; }
 .p-t { padding-top:    $spacer !important; }
 .p-r { padding-right:  $spacer !important; }
 .p-b { padding-bottom: $spacer !important; }
@@ -18,7 +18,7 @@
 .p-x { padding-right:  $spacer !important; padding-left:   $spacer !important; }
 .p-y { padding-top:    $spacer !important; padding-bottom: $spacer !important; }
 
-.p-a-md { padding:        ($spacer * 2) !important; }
+.p-md   { padding:        ($spacer * 2) !important; }
 .p-t-md { padding-top:    ($spacer * 2) !important; }
 .p-r-md { padding-right:  ($spacer * 2) !important; }
 .p-b-md { padding-bottom: ($spacer * 2) !important; }
@@ -26,7 +26,7 @@
 .p-x-md { padding-right:  ($spacer * 2) !important; padding-left:   ($spacer * 2) !important; }
 .p-y-md { padding-top:    ($spacer * 2) !important; padding-bottom: ($spacer * 2) !important; }
 
-.p-a-lg { padding:        ($spacer * 4) !important; }
+.p-lg   { padding:        ($spacer * 4) !important; }
 .p-t-lg { padding-top:    ($spacer * 4) !important; }
 .p-r-lg { padding-right:  ($spacer * 4) !important; }
 .p-b-lg { padding-bottom: ($spacer * 4) !important; }

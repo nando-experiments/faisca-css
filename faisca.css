@@ -1,5 +1,5 @@
 /*!
- * SCSS SOS - v1.3.0 | https://github.com/nandomoreirame/scss-sos
+ * Faisca - v2.0.0 | https://github.com/nandomoreirame/faisca-css
  * @author: Fernando Moreira <nandomoreira.me@gmail.com>
  */
 .cfix:before, .clearfix:before, .cfix:after, .clearfix:after { content: " "; display: table; }
@@ -8,59 +8,59 @@
 /*======================================
 =            Others helpers            =
 ======================================*/
-.f-none, .d-inline, .d-inline-block, .pull-none { float: none !important; }
+.f-none, .d-il, .d-il-blk, .pull-none { float: none !important; }
 
 .f-right, .pull-right { float: right !important; }
 
 .f-left, .pull-left { float: left !important; }
 
-.clr-b { clear: both; }
+.clr-b, .clear-b { clear: both; }
 
-.clr-r { clear: right; }
+.clr-r, .clear-r { clear: right; }
 
-.clr-l { clear: left; }
+.clr-l, .clear-l { clear: left; }
 
 .d-inherit { display: inherit !important; }
 
 .d-initial { display: initial !important; }
 
-.d-inline { display: inline !important; }
+.d-il { display: inline !important; }
 
-.d-inline-block { display: inline-block !important; }
+.d-il-blk { display: inline-block !important; }
 
-.d-block, .show { display: block !important; }
+.d-blk, .show { display: block !important; }
 
 .d-none, .hidden, [hidden] { display: none !important; }
 
 .d-flex { display: flex !important; }
 
-.d-inline-flex { display: inline-flex !important; }
+.d-il-flex { display: inline-flex !important; }
 
-.d-inline-table { display: inline-table !important; }
+.d-il-table { display: inline-table !important; }
 
 .d-list-item { display: list-item !important; }
 
-.d-table { display: table !important; }
+.d-t { display: table !important; }
 
-.d-table-row { display: table-row !important; }
+.d-t-row { display: table-row !important; }
 
-.d-table-column { display: table-column !important; }
+.d-t-col { display: table-column !important; }
 
-.d-table-cell, .va-top, .va-middle, .va-bottom { display: table-cell !important; }
+.d-t-cell, .va-top, .va-middle, .va-bottom { display: table-cell !important; }
 
-.d-table-row-group { display: table-row-group !important; }
+.d-t-row-group { display: table-row-group !important; }
 
-.d-table-footer-group { display: table-footer-group !important; }
+.d-t-f-group { display: table-footer-group !important; }
 
-.d-table-header-group { display: table-header-group !important; }
+.d-t-h-group { display: table-header-group !important; }
 
-.d-table-column-group { display: table-column-group !important; }
+.d-t-col-group { display: table-column-group !important; }
 
-.d-table-caption { display: table-caption !important; }
+.d-t-capt { display: table-caption !important; }
 
-.visible { visibility: visible; }
+.v-visible { visibility: visible; }
 
-.invisible { visibility: hidden; }
+.v-hidden { visibility: hidden; }
 
 .va-top { vertical-align: top !important; }
 
@@ -68,9 +68,9 @@
 
 .va-bottom { vertical-align: bottom !important; }
 
-.shadow { -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
+.bx-sh { -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
 
-.no-shadow { -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+.bx-sh-none { -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
 
 .ovf-auto { overflow: auto !important; }
 
@@ -78,11 +78,11 @@
 
 .ovf-hidden, .txt-hidden, .txt-truncate { overflow: hidden !important; }
 
-.opacity-0 { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; }
+.o-0 { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; }
 
-.opacity-50 { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); opacity: 0.5; }
+.o-50 { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); opacity: 0.5; }
 
-.opacity-100 { filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
+.o-100 { filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
 
 /*==========================================
 =            Typography helpers            =
@@ -92,6 +92,8 @@
 .txt-silver { color: #eee !important; }
 
 .txt-black { color: #000 !important; }
+
+.fw-lighter { font-weight: 100 !important; }
 
 .fw-light { font-weight: 300 !important; }
 
@@ -115,19 +117,19 @@
 
 .txt-capit { text-transform: capitalize !important; }
 
-.txt-style-normal { font-style: normal !important; }
+.f-style-n { font-style: normal !important; }
 
-.txt-italic { font-style: italic !important; }
+.f-style-i { font-style: italic !important; }
 
-.txt-oblique { font-style: oblique !important; }
+.f-style-o { font-style: oblique !important; }
 
-.txt-decoration-none { text-decoration: none !important; }
+.txt-d-n { text-decoration: none !important; }
 
-.txt-underline { text-decoration: underline !important; }
+.txt-d-u { text-decoration: underline !important; }
 
-.txt-overline { text-decoration: overline !important; }
+.txt-d-o { text-decoration: overline !important; }
 
-.txt-line-through, .txt-strike { text-decoration: line-through !important; }
+.txt-strike, .txt-d-lt { text-decoration: line-through !important; }
 
 .txt-nowrap, .txt-hidden, .txt-truncate { white-space: nowrap !important; }
 
@@ -152,7 +154,7 @@
 
 .m-y-none { margin-top: 0 !important; margin-bottom: 0 !important; }
 
-.m-a { margin: 10px !important; }
+.m { margin: 10px !important; }
 
 .m-t { margin-top: 10px !important; }
 
@@ -168,7 +170,7 @@
 
 .m-x-auto { margin-right: auto !important; margin-left: auto !important; }
 
-.m-a-md { margin: 20px !important; }
+.m-md { margin: 20px !important; }
 
 .m-t-md { margin-top: 20px !important; }
 
@@ -182,7 +184,7 @@
 
 .m-y-md { margin-top: 20px !important; margin-bottom: 20px !important; }
 
-.m-a-lg { margin: 40px !important; }
+.m-lg { margin: 40px !important; }
 
 .m-t-lg { margin-top: 40px !important; }
 
@@ -199,7 +201,7 @@
 /*========================================
 =            Paddings Helpers            =
 ========================================*/
-.p-a-none { padding: 0 !important; }
+.p-none { padding: 0 !important; }
 
 .p-t-none { padding-top: 0 !important; }
 
@@ -213,7 +215,7 @@
 
 .p-y-none { padding-top: 0 !important; padding-bottom: 0 !important; }
 
-.p-a { padding: 10px !important; }
+.p { padding: 10px !important; }
 
 .p-t { padding-top: 10px !important; }
 
@@ -227,7 +229,7 @@
 
 .p-y { padding-top: 10px !important; padding-bottom: 10px !important; }
 
-.p-a-md { padding: 20px !important; }
+.p-md { padding: 20px !important; }
 
 .p-t-md { padding-top: 20px !important; }
 
@@ -241,7 +243,7 @@
 
 .p-y-md { padding-top: 20px !important; padding-bottom: 20px !important; }
 
-.p-a-lg { padding: 40px !important; }
+.p-lg { padding: 40px !important; }
 
 .p-t-lg { padding-top: 40px !important; }
 
@@ -332,6 +334,9 @@
 .l-centered, .l-centered > li { float: none; }
 .l-centered > li { display: inline-block; }
 
+/*==========================================
+=            Helpers Backtround            =
+==========================================*/
 .no-bg { background: none !important; }
 
 .bg-size-cover { background-size: cover; }
@@ -352,9 +357,3 @@
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
 
 .sr-only-focusable:active, .sr-only-focusable:focus { position: static; width: auto; height: auto; margin: 0; overflow: visible; clip: auto; }
-
-/*=======================================
-=            Buttons helpers            =
-=======================================*/
-.btn { -webkit-appearance: none; -moz-appearance: none; border-style: solid; border-width: 0; cursor: pointer; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-weight: 500; line-height: normal; margin: 0 0 10px; position: relative; text-align: center; text-decoration: none; display: inline-block; padding: 16px 30px; font-size: 1rem; background-color: #1791A9; border-color: #158297; color: #fff; -moz-transition: background-color 0.1s linear; -o-transition: background-color 0.1s linear; -webkit-transition: background-color 0.1s linear; transition: background-color 0.1s linear; }
-.btn:hover, .btn:focus { background-color: #147e93; }
